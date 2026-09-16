@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Card Rewards Optimizer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar"><div class="brand"><span class="brandmark">CR</span><div><strong>Card Rewards Optimizer</strong><small>Personal rewards dashboard</small></div></div></header>
+<main class="wrap">
+  <section class="hero"><div><p class="eyebrow">PERSONAL DASHBOARD</p><h1>Make every card purchase count.</h1><p>Track your cards, rewards, benefits and personal offers in one simple place.</p></div><button class="primary" onclick="openOfferModal()">+ Add offer</button></section>
+  <section class="stats"><div><span>Cards</span><b id="cardCount">2</b></div><div><span>Active offers</span><b id="offerCount">0</b></div><div><span>Tracked benefits</span><b id="benefitCount">8</b></div></section>
+  <section><div class="section-head"><h2>My Cards</h2></div><div id="cards" class="card-grid"></div></section>
+  <section><div class="section-head"><div><h2>Offers</h2><p>Personal offers are saved only in this browser.</p></div><input id="search" class="search" placeholder="Search merchants or cards..." oninput="renderOffers()"></div><div id="offers" class="offers"></div></section>
+  <section><div class="section-head"><div><h2>Which card should I use?</h2><p>Enter a purchase amount and category to compare the base rewards configured for your cards.</p></div></div><div class="calculator"><label>Purchase amount<input id="amount" type="number" min="0" value="100"></label><label>Category<select id="category"><option value="amazon">Amazon / Whole Foods</option><option value="travel">Chase Travel</option><option value="dining">Dining</option><option value="gas">Gas</option><option value="drugstore">Drugstore</option><option value="transit">Transit</option><option value="other">Everything else</option></select></label><button class="primary" onclick="calculate()">Compare</button></div><div id="result" class="result"></div></section>
+  <section><div class="section-head"><h2>Card Benefits</h2></div><div id="benefits" class="benefits"></div></section>
+</main>
+<div id="modal" class="modal hidden"><div class="modal-box"><button class="close" onclick="closeOfferModal()">×</button><h2>Add a personal offer</h2><p>Enter an offer you can see in your issuer account. No bank login or password is collected.</p><label>Card<select id="offerCard"><option value="freedom">Chase Freedom Unlimited</option><option value="prime">Prime Visa</option></select></label><label>Merchant<input id="merchant" placeholder="e.g. DoorDash"></label><label>Offer<input id="offerText" placeholder="e.g. 10% back, up to $8"></label><label>Expires<input id="expires" type="date"></label><button class="primary full" onclick="saveOffer()">Save offer</button></div></div>
+<footer>Built as a free personal rewards tracker. Public card information should be verified against the issuer's current terms.</footer>
+<script src="app.js"></script>
+</body></html>

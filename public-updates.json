@@ -1,0 +1,163 @@
+{
+  "checkedDate": "2026-09-16",
+  "scope": "Public issuer and reliable public-source data only. No bank logins or personalized offers accessed.",
+  "cards": {
+    "freedom": {
+      "name": "Chase Freedom Unlimited",
+      "changed": true,
+      "updates": [
+        "$200 new-cardmember bonus after $500 in purchases in the first 3 months.",
+        "0% intro APR on purchases and balance transfers for 15 months.",
+        "6 months complimentary DashPass when first activated by Dec. 31, 2027.",
+        "2% total cash back on qualifying Lyft purchases through Sept. 30, 2027."
+      ],
+      "sourceNotes": [
+        {"source":"Chase Freedom Unlimited product page","url":"https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited","checked":"2026-09-16"}
+      ]
+    },
+    "prime": {
+      "name": "Prime Visa",
+      "changed": true,
+      "updates": [
+        "$150 Amazon Gift Card instantly loaded on approval for eligible Prime applicants.",
+        "5% back at Amazon.com, Audible.com, Whole Foods Market and Chase Travel with an eligible Prime membership; 2% at gas stations, restaurants and local transit/commuting; 1% elsewhere."
+      ],
+      "sourceNotes": [
+        {"source":"Chase Prime Visa product page","url":"https://creditcards.chase.com/cash-back-credit-cards/amazon-prime-rewards","checked":"2026-09-16"},
+        {"source":"Chase Amazon Visa/Prime Visa rewards terms","url":"https://creditcards.chase.com/cash-back-credit-cards/amazon-rewards","checked":"2026-09-16"}
+      ]
+    },
+    "amazonstore": {
+      "name": "Amazon Store Card",
+      "changed": true,
+      "updates": [
+        "Public page currently advertises an Amazon Gift Card upon approval; the amount is not a fixed public value and should not be invented.",
+        "0% equal-monthly-payment financing is available on qualifying Amazon purchases: 6 months for $50-$599.99, 12 months for $600+, and 24 months on select purchases.",
+        "Eligible Prime Store Card members can choose 5% back at Amazon.com and Whole Foods Market instead of promotional financing; 5% back and financing cannot be combined."
+      ],
+      "sourceNotes": [
+        {"source":"Synchrony Amazon Store Card page/terms","url":"https://www.synchrony.com/financing/credit-cards","checked":"2026-09-16"},
+        {"source":"Synchrony Amazon card FAQ","url":"https://www.synchrony.com/amazon","checked":"2026-09-16"}
+      ]
+    },
+    "smartly": {
+      "name": "U.S. Bank Smartly Visa Signature",
+      "changed": true,
+      "updates": [
+        "Unlimited 2% cash back on every purchase remains the base rate.",
+        "Qualifying Smartly Savings plus qualifying Smartly Checking/Safe Debit balances can raise the rate to 2.5%, 3% or 4% on the first $10,000 of eligible purchases per billing cycle.",
+        "0% intro APR on purchases and balance transfers for 12 billing cycles.",
+        "U.S. Bank rewards rules currently state an additional 4 points per $1 on prepaid hotel and car reservations through the Travel Center, for 6 points per $1 total on those qualifying purchases."
+      ],
+      "sourceNotes": [
+        {"source":"U.S. Bank credit card page","url":"https://www.usbank.com/credit-cards.html","checked":"2026-09-16"},
+        {"source":"U.S. Bank Smartly Rewards FAQ","url":"https://rewards.usbank.com/benefits/card/SmartlySigBenefits/faqs","checked":"2026-09-16"},
+        {"source":"U.S. Bank Smartly Program Rules","url":"https://www.rewards.usbank.com/benefits/card/SmartlySigBenefits/program-rules","checked":"2026-09-16"}
+      ]
+    },
+    "cashplus": {
+      "name": "U.S. Bank Cash+ Visa Signature",
+      "changed": true,
+      "updates": [
+        "$200 new-cardmember bonus after $1,000 in eligible purchases within 90 days.",
+        "0% intro APR on purchases and balance transfers for 15 billing cycles.",
+        "5% on the first $2,000 in combined purchases each quarter in two selected categories, 2% in one selected everyday category, and 1% elsewhere.",
+        "An additional 4% is earned on eligible prepaid air, car and hotel reservations through the U.S. Bank Travel Center, making 5% total on those qualifying Travel Center purchases."
+      ],
+      "sourceNotes": [
+        {"source":"U.S. Bank Cash+ Visa Signature product page","url":"https://www.usbank.com/credit-cards/cash-plus-visa-signature-credit-card.html","checked":"2026-09-16"},
+        {"source":"U.S. Bank credit card disclosures","url":"https://www.usbank.com/credit-cards.html","checked":"2026-09-16"}
+      ]
+    },
+    "quicksilver": {
+      "name": "Capital One Quicksilver Rewards",
+      "changed": true,
+      "updates": [
+        "$200 cash bonus after spending $500 within 3 months of opening an eligible Quicksilver account.",
+        "0% intro APR is currently advertised for the first 15 months.",
+        "1.5% cash back on every purchase, plus 5% on eligible Capital One Travel hotel/vacation rental/rental car/activity bookings and 5% on eligible Capital One Entertainment purchases."
+      ],
+      "sourceNotes": [
+        {"source":"Capital One Quicksilver comparison","url":"https://www.capitalone.com/learn-grow/money-management/quicksilver-vs-quicksilverone/","checked":"2026-09-16"},
+        {"source":"Capital One cash-back cards","url":"https://www.capitalone.com/credit-cards/cash-back/","checked":"2026-09-16"}
+      ]
+    },
+    "platinum": {
+      "name": "Capital One Platinum",
+      "changed": true,
+      "updates": [
+        "No standard purchase rewards are advertised for the unsecured Platinum card; keep the rewards rate unconfigured rather than treating it as a cash-back card.",
+        "$0 annual fee and credit-building positioning remain current.",
+        "Capital One says eligible Platinum cardholders can be automatically considered for a credit-line increase in as little as six months."
+      ],
+      "sourceNotes": [
+        {"source":"Capital One card comparison","url":"https://www.capitalone.com/credit-cards/compare/","checked":"2026-09-16"},
+        {"source":"Capital One fair-credit cards","url":"https://www.capitalone.com/credit-cards/fair-and-building/","checked":"2026-09-16"}
+      ]
+    },
+    "discover": {
+      "name": "Discover it Cash Back",
+      "changed": true,
+      "updates": [
+        "Current Q3 2026 5% categories: Gas Stations, Transportation and Drug Stores through Sept. 30, 2026, on up to $1,500 in combined purchases after activation.",
+        "The card continues to earn 1% on other purchases and offers unlimited first-year Cashback Match for eligible new cardmembers."
+      ],
+      "sourceNotes": [
+        {"source":"Discover public homepage/current cash-back notice","url":"https://www.discover.com/","checked":"2026-09-16"},
+        {"source":"Discover it Cash Back product page","url":"https://www.discover.com/credit-cards/cash-back/it-card/","checked":"2026-09-16"}
+      ]
+    },
+    "robinhoodgold": {
+      "name": "Robinhood Gold Card",
+      "changed": true,
+      "updates": [
+        "3% cash back remains the standard rate on eligible purchases; 5% applies to eligible travel booked through the Robinhood travel portal.",
+        "The card requires an annual Robinhood Gold subscription; the card itself has no separate annual fee."
+      ],
+      "sourceNotes": [
+        {"source":"Robinhood Gold Card product page","url":"https://robinhood.com/creditcard/","checked":"2026-09-16"},
+        {"source":"Robinhood Gold Card rewards/support","url":"https://robinhood.com/us/en/support/articles/robinhood-gold-card-rewards/","checked":"2026-09-16"}
+      ]
+    },
+    "oldnavy": {
+      "name": "Old Navy Encore Credit Card",
+      "changed": true,
+      "updates": [
+        "All-Access Encore cardmembers earn 25 points per $1 at Old Navy/Gap family brands, 15 points per $1 at eligible outside apparel retailers and 5 points per $1 elsewhere on Mastercard; the published terms value 100 points at $1 in rewards, equivalent to 5%, 3% and 1% respectively.",
+        "A public 30% first-purchase discount is currently advertised for new Encore Credit Card accounts; the discount code expires 14 days after account opening and has exclusions."
+      ],
+      "sourceNotes": [
+        {"source":"Old Navy Encore membership page","url":"https://oldnavy.gap.com/customerService/info.do?cid=1095422","checked":"2026-09-16"},
+        {"source":"Encore Loyalty FAQ","url":"https://www.gap.com/static_content/onesitecategory/components/webAssets/allbrands/loyalty/faq.html","checked":"2026-09-16"},
+        {"source":"Old Navy current promotion","url":"https://oldnavy.gap.com/browse/info.do?cid=1075373","checked":"2026-09-16"}
+      ]
+    },
+    "bilt": {
+      "name": "Bilt Blue Rewards Card",
+      "changed": true,
+      "updates": [
+        "$100 Bilt Cash sign-up bonus is currently advertised for the Blue Card.",
+        "Current featured earning: up to 4X at Bilt partner restaurants, up to 3X on hotels through Bilt Travel, 3X on Lyft after linking accounts, 2X on flights through Bilt Travel, and 1X on other everyday purchases.",
+        "Housing rewards are currently advertised at up to 1.25X on rent and mortgage payments through Bilt, with no transaction fee on housing payments.",
+        "10% intro APR on new eligible purchases for the first 12 billing cycles."
+      ],
+      "sourceNotes": [
+        {"source":"Bilt Blue Card product page","url":"https://www.bilt.com/card/blue","checked":"2026-09-16"},
+        {"source":"Bilt credit cards overview","url":"https://www.bilt.com/card","checked":"2026-09-16"}
+      ]
+    },
+    "dcu": {
+      "name": "DCU Visa Signature Cash Rewards",
+      "changed": true,
+      "updates": [
+        "Current DCU public materials confirm the Signature Cash Rewards card replaced the Platinum Rewards card and carries Visa Signature travel/lifestyle protections and services.",
+        "Current public page confirms no annual, balance-transfer, foreign-transaction or cash-advance fees, plus fraud notifications, freeze/unfreeze and Tap to Pay.",
+        "The configured 1% cash-back rate is retained based on DCU's published Signature Cash Rewards program materials; no higher standard public rate was found."
+      ],
+      "sourceNotes": [
+        {"source":"DCU Visa Signature Cash Rewards product page","url":"https://www.dcu.org/borrow/credit-cards/visa-signature-cash-rewards-credit-card.html","checked":"2026-09-16"},
+        {"source":"DCU Signature Cash Rewards benefits","url":"https://www.dcu.org/financial-education-center/credit-cards/benefits-of-dcu-signature-visa-card.html","checked":"2026-09-16"}
+      ]
+    }
+  }
+}

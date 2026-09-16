@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#172033">
-<link rel="icon" type="image/svg+xml" href="favicon.svg?v=5">
-<link rel="shortcut icon" href="favicon.svg?v=5">
+<link rel="icon" type="image/svg+xml" href="favicon.svg?v=6">
+<link rel="shortcut icon" href="favicon.svg?v=6">
 <title>Rhino Rewards — Card Rewards Optimizer</title>
-<link rel="stylesheet" href="styles.css?v=5">
+<link rel="stylesheet" href="styles.css?v=6">
 </head>
 <body>
-<header class="topbar"><div class="brand"><img class="logo" src="favicon.svg?v=5" alt="Rhino Rewards"><div><strong>Rhino Rewards</strong><small>Personal card rewards dashboard</small></div></div></header>
+<header class="topbar"><div class="brand"><img class="logo" src="favicon.svg?v=6" alt="Rhino Rewards"><div><strong>Rhino Rewards</strong><small>Personal card rewards dashboard</small></div></div></header>
 <main class="wrap">
 <section class="hero"><div><p class="eyebrow">PERSONAL REWARDS COMMAND CENTER</p><h1>Know which card to use before you pay.</h1><p>Compare earning rates, current issuer-listed benefits, personal offers and your own spending profile in one place.</p></div><div class="hero-actions"><button class="secondary" onclick="openCompareModal()">Compare cards</button><button class="primary" onclick="openOfferModal()">+ Add offer</button></div></section>
 <section class="stats"><div><span>Cards</span><b id="cardCount">12</b></div><div><span>Active offers</span><b id="offerCount">0</b></div><div><span>Tracked features</span><b id="benefitCount">0</b></div><div><span>Profile value / year</span><b id="profileValue">$0</b></div></section>
@@ -25,7 +25,7 @@
 <div id="modal" class="modal hidden"><div class="modal-box"><button class="close" onclick="closeOfferModal()">×</button><h2>Add a personal offer</h2><p>Enter an offer you can see in your issuer account. No bank login or password is collected.</p><label>Card<select id="offerCard"></select></label><label>Merchant<input id="merchant" placeholder="e.g. DoorDash"></label><label>Offer<input id="offerText" placeholder="e.g. 10% back, up to $8"></label><label>Expires<input id="expires" type="date"></label><button class="primary full" onclick="saveOffer()">Save offer</button></div></div>
 <div id="cardModal" class="modal hidden"><div class="modal-box wide"><button class="close" onclick="closeCardModal()">×</button><div id="cardDetails"></div></div></div>
 <div id="compareModal" class="modal hidden"><div class="modal-box wide"><button class="close" onclick="closeCompareModal()">×</button><h2>Detailed card comparison</h2><p class="muted">This is a factual comparison of the configured public rates, costs and tracked benefits. It does not account for every account-specific term.</p><div id="fullComparison"></div></div></div>
-<footer>Rhino Rewards is a personal tracker, not a bank service. Public card information should be verified against the issuer's current terms and your account.<br><span class="muted">Deployment build 2026-09-16.5</span></footer>
-<script src="app.js?v=5"></script>
+<footer>Rhino Rewards is a personal tracker, not a bank service. Public card information should be verified against the issuer's current terms and your account.<br><span class="muted">Deployment build 2026-09-16.6</span></footer>
+<script src="app.js?v=6"></script>
 </body>
 </html>

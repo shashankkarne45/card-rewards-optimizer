@@ -1,0 +1,53 @@
+{
+  "checkedDate": "2026-09-16",
+  "scope": "Public issuer/reliable public sources only. No bank logins or personalized offers accessed.",
+  "verifiedChanges": [
+    {
+      "card": "Old Navy Encore Credit Card",
+      "type": "dashboard data correction",
+      "change": "Corrected reward conversion to 500 points = $1 reward. Current Encore terms also confirm 25 points/$1 at Gap family brands, 15 points/$1 at eligible outside apparel retailers and 5 points/$1 elsewhere on Mastercard.",
+      "source": "Gap/Old Navy Encore Loyalty FAQ and current terms",
+      "url": "https://www.gap.com/static_content/onesitecategory/components/webAssets/allbrands/loyalty/faq.html",
+      "checked": "2026-09-16"
+    },
+    {
+      "card": "Bilt Blue Rewards Card",
+      "type": "dashboard data correction",
+      "change": "Expanded the public rate model so the finder can distinguish up to 4X at Bilt partner restaurants, 3X on hotels through Bilt Travel, 3X on Lyft, 2X on flights through Bilt Travel and 1X on other everyday purchases. The finder does not assume an unspecified travel purchase earns 3X.",
+      "source": "Bilt current card overview",
+      "url": "https://www.bilt.com/card",
+      "checked": "2026-09-16"
+    },
+    {
+      "card": "U.S. Bank Cash+ Visa Signature",
+      "type": "dashboard data correction",
+      "change": "Removed hard-coded Electronics=5% and Grocery=2% assumptions from the generic finder because the 5% and 2% categories are selected by the cardmember and therefore account-specific. The public 1% base remains the generic fallback; the 5% Travel Center total remains separately identified for qualifying prepaid air, hotel and car reservations.",
+      "source": "U.S. Bank Cash+ current product/disclosure pages",
+      "url": "https://www.usbank.com/credit-cards/cash-plus-visa-signature-credit-card.html",
+      "checked": "2026-09-16"
+    },
+    {
+      "card": "Discover it Cash Back",
+      "type": "dashboard data correction",
+      "change": "Removed unverified Q4 2026 rotating-category assumptions from the finder. The currently verified public quarter is Q3 2026: Gas Stations, Transportation and Drug Stores through September 30, 2026, up to $1,500 combined after activation.",
+      "source": "Discover current public card page/homepage",
+      "url": "https://www.discover.com/credit-cards/cash-back/it-card/",
+      "checked": "2026-09-16"
+    }
+  ],
+  "issuerChangesVerified": "No additional issuer-side changes were verified for the other eight cards during this refresh. Existing public data remains subject to issuer terms and future changes.",
+  "cardsChecked": [
+    {"card":"Chase Freedom Unlimited","source":"https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited"},
+    {"card":"Prime Visa","source":"https://creditcards.chase.com/cash-back-credit-cards/amazon-prime-rewards"},
+    {"card":"Amazon Store Card","source":"https://www.synchrony.com/financing/credit-cards"},
+    {"card":"U.S. Bank Smartly Visa Signature","source":"https://www.usbank.com/credit-cards/bank-smartly-visa-signature-credit-card.html"},
+    {"card":"U.S. Bank Cash+ Visa Signature","source":"https://www.usbank.com/credit-cards/cash-plus-visa-signature-credit-card.html"},
+    {"card":"Capital One Quicksilver Rewards","source":"https://www.capitalone.com/learn-grow/money-management/quicksilver-vs-quicksilverone/"},
+    {"card":"Capital One Platinum","source":"https://www.capitalone.com/learn-grow/money-management/capital-one-credit-cards/"},
+    {"card":"Discover it Cash Back","source":"https://www.discover.com/credit-cards/cash-back/it-card/"},
+    {"card":"Robinhood Gold Card","source":"https://robinhood.com/us/en/support/articles/robinhood-gold-card-rewards/"},
+    {"card":"Old Navy Encore Credit Card","source":"https://www.gap.com/static_content/onesitecategory/components/webAssets/allbrands/loyalty/faq.html"},
+    {"card":"Bilt Blue Rewards Card","source":"https://www.bilt.com/card"},
+    {"card":"DCU Visa Signature Cash Rewards","source":"https://www.dcu.org/borrow/credit-cards/credit-cards.html"}
+  ]
+}
